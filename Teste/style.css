@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  width: 400px;
+  height: 400px;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.child {
+  width: 150px;
+  height: 150px;
+}

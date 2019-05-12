@@ -1,0 +1,169 @@
+main {
+  font-family: Georgia;
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  background-color: #FFFFFF;
+  font-weight: bold;
+  font-family: Verdana;
+  padding-right: 40px;
+  font-size: 14px;
+
+}
+
+header .logo {
+  flex-grow: 1;
+  align-items: center;
+  padding-left: 30px;
+  }
+
+  header p {
+    color: MediumAquamarine;
+    display: inline-flex;
+  }
+
+
+nav li {
+  display: inline-block;
+  padding: 20px 10px;
+
+}
+
+.mother-tuna {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: bold;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  width: 630px;
+  height: 300px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
+  color: white;
+}
+
+.mother-text {
+  display: block;
+
+}
+
+.Orca {
+    display: block;
+}
+
+.orca-title {
+  display: block;
+}
+
+.orca-text {
+  display: block;
+}
+
+.Earth {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+  display: block;
+  }
+
+.fall-cancelled {
+    display: block;
+  }
+
+.burguer-title {
+  display: block;
+}
+
+.burguer-text {
+  display: block;
+}
+
+.Research {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+  display: block;
+}
+
+.large-column {
+  display: flex;
+  width: 630px;
+  border-style: inset;
+}
+
+.inside-column-left {
+  border-style: inset;
+  flex-direction: column;
+}
+
+.inside-column-right {
+  border-style: inset;
+  flex-direction: column;
+}
+
+.fbi-title {
+  display: block;
+}
+
+.fbi-text {
+  display: block;
+}
+
+.cats-image {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+  display: block;
+}
+
+.cats-text {
+  display: block;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+p {
+  margin-top: 16px;
+}
+
+Footer {
+  background-color: #66CDAA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.footer-list li {
+  display: inline;
+}
+
+a {
+  color: black;
+}
+
+
+
+/*.image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: : 300px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 30px;
+  color: #FFFFFF;
+  text-align: center;
+} */
