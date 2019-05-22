@@ -1,1 +1,55 @@
-/*individual does the text and tea doess the five little images*/
+/* Universal Formatting */
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+/* Header */
+
+/*I still have to add underline to link*/
+header {
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  flex-grow: 1;
+  margin-top: 0px;
+  background-color: black;
+  }
+
+.logo {
+  height: 50px;
+  padding-left: 10px;
+}
+
+
+/* first part */
+
+.first-tea {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  flex-direction:
+  }
+
+.first-tea h2 h4 {
+  display: block;
+}
+
+/* teas in squares */
+
+.five-teas {
+  display: inline-block;
+  
+}
+
+.teatea {
+  height: 200px;
+  width: 300px;
+}
